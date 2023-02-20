@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+	<title>HTML Email Template Boilerplate</title>
+   <style type="text/css">
+   	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+      table {
+			border-spacing: 0;
+		}
+      td {
+         padding: 0;
+      }
+      p{
+         font-size: 15px;
+         color: #2d2d2d;
+         text-decoration: none;
+      }
+      img {
+         border: 0;
+      }
+      a {
+         text-decoration: none;
+         color: #f3f3f3;
+         font-size: 16px;
+      }
+      .content {
+         line-height: 20px;
+         font-size: 15px;
+      }
+
+      @media screen and (max-width: 599.98px) {
+         .two-column .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+            padding-top: 15px !important;
+            text-align: center !important;
+         }
+
+         .two-column .content-padding{
+            padding: 0 !important;
+            text-align: center !important;
+         }
+         .two-col-img{
+            width: 300px!important;
+            max-width: 300px!important;
+            height: auto !important;
+         }
+         .two-column img{
+            width: 100% !important; 
+            max-width: 300px !important;
+            padding: 0 !important;
+         }
+      }
+
+      @media screen and (max-width: 499.98px) { 
+         .two-column .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+            padding-top: 15px !important;
+            text-align: center !important;
+         }
+         .two-column img{
+            width: 100% !important; 
+            max-width: 300px !important;
+            padding: 0 !important;
+         }
+		}
+      @media screen and (max-width: 549.98px) { 
+         .two-column .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+            padding-top: 15px !important;
+            text-align: center !important;
+         }
+         .two-column img{
+            width: 100% !important; 
+            max-width: 300px !important;
+            padding: 0 !important;
+            height: auto !important;
+         }
+		}
+      @media screen and (max-width: 399.98px) {
+         .two-column .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+         }
+         .two-column img{
+            width: 100% !important; 
+            max-width: 300px !important;
+            padding: 0 !important;
+            height: auto !important;
+         }
+      }
+
+      /* Custom Dark Mode Colors
+      :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, center, table, .darkmode-bg {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         }
+         .darkmode-transparent {
+            background-color: transparent!important;
+         }
+      }
+       */
+   </style>
+   
+	<!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+			table {border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color: #dde0e1!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+      </style>
+   <![endif]-->
+
+   <center style="width: 100%;table-layout:fixed;background-color: #dde0e1;padding-bottom: 40px;">
+      <div style="max-width: 600px;background-color: #dde0e1;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+
+         <!-- Preheader (remove comment) -->
+         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            <!-- Add Preheader Text Here (85-100 characters in length) -->
+         </div>
+         <!-- End Preheader (remove comment) -->
+      
+         <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing:0;color:#565656;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+         <table align="center" style="border-spacing:0;color:#1d1d1d;font-family: 'Lato',sans-serif, Arial, Helvetica;background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;" role="presentation">
+
+<!--start email body-->
+<!--logo header starts here-->
+<tr>
+    <td style="padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px;">
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+            <tr>
+                <td>
+                    <a href="https://www.tripadvisor.com/" target="_blank"><img src="https://cdn.tripadvisor.com/img2/email/rex/ta_logo_transparent_230px.png" alt="logo"></a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<!--logo ends here-->
+<!--main header starts with yellow bg-->
+<tr>
+    <td style="padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px; background-color: #FFB84C;">
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+        <tr>
+            <td style="padding-left: 0; padding-right: 0; text-align: left; padding-top: 0; padding-bottom: 0;">
+                <table cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="[presentation]">
+                    <tr>
+                        <td style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                            <h1 style="font-weight: 800; line-height: 30px;">Destination to dine for</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 0; padding-right: 0; padding-top: 15px; padding-bottom: 15px; width: 100%; max-width: 600px;">
+                            <a href="https://www.tripadvisor.com/" target="_blank"> <img src="https://static.crm.tacdn.com/ta/oo/tc_destinations_food_021423/hero.jpg" alt="banner-img" style="max-width: 600px; height: auto; border: none; padding: none;" width="100%"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </table>
+    </td>
+</tr>
+
+<!--main header ends with yellow bg-->
+<!--two col table starts-->
+<tr>
+    <td style="padding-top: 15px; padding-bottom: 15px; padding-left: 0; padding-right: 0; background-color: #FFB84C;" align="center">
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+            <tr>
+                <td class="two-column" style="padding: 0; font-size: 0; text-align: center;">
+                    	<!--[if (gte mso 9)|(IE)]>
+										<table width="100%" style="border-spacing:0;" role="presentation">
+										<tr>
+										<td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+									<![endif]-->
+                 <table width="100%" class="column" style="max-width: 300px; vertical-align: top; display: inline-block;" role="presentation" >
+                    <tr>
+                        <td class="padding" width="100%" valign="top" style="padding-left: 30px;">
+                            <table class="content-padding" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+                                <tr>
+                                    <td style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                                        <a href="https://www.tripadvisor.com/" target="_blank"><img class="two-col-img" src="https://newsletter-content.tripadvisor.com/img2/email/core/tc_botb_en_us.png" alt="award" style="width: 100%; max-width: 300px;" ></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                 </table>                   
+                 <!--[if (gte mso 9)|(IE)]>
+										</td><td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+									<![endif]-->
+                                    <table width="100%" class="column" style="max-width: 300px; vertical-align: top; display: inline-block;" role="presentation" >
+                                        <tr>
+                                            <td class="padding" width="100%" valign="top" style="padding-left: 0px; padding-right: 30px;">
+                                                <table class="content-padding" cellpadding="0" cellspacing="0" style="border-spacing: 0; text-align: left;" role="presentation">
+                                                    <tr>
+                                                        <td style="padding: 0; text-align: left;">
+                                                          <p style="font-size: large; font-weight: 500;">Whether it’s fresh beignets for breakfast or homemade cacio e pepe for dinner, the meal is the main attraction in these winning food destinations. See which spots stole travelers’ hearts (and appetites) below.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding-top: 20px; padding-bottom: 20px; padding-left: 0; padding-right: 0;">
+                                                            <a target="_blank" href="https://www.tripadvisor.com/" style="background-color: #2d2d2d; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; font-weight: 800; border-radius: 15px; border: 1px solid #2d2d2d;">Dig in</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                     </table>              
+
+                <!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+									<![endif]-->                    
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!--checkout text start-->
+<tr>
+   <td style="padding-top: 10px; padding-bottom: 0px; background-color: #FFB84C; text-align: left;">
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+         <tr>
+            <td style="padding-left: 20px; padding-left: 20px; width: 100%; max-width: 600px;">
+               <h2 style="font-weight: 800; line-height: 30px;">Check out our other winners</h2>
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+
+<!--checkout text ends-->
+<!--checkout trending two-column start-->
+<tr>
+   <td style="padding-top: 0px; padding-bottom: 30px; background-color: #FFB84C;" ">
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+         <tr>
+            <td class="two-column" style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; font-size: 0;" align="center">
+	<!--[if (gte mso 9)|(IE)]>
+										<table width="100%" style="border-spacing:0;" role="presentation">
+										<tr>
+										<td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+									<![endif]-->
+   <table class="column" style="width: 100%; max-width: 300px; vertical-align: top; display: inline-block;" role="presentation" >
+      <tr>
+         <td class="padding" width="100%" valign="top" style="padding-left: 20px; padding-right: 0; padding-top: 0; padding-bottom: 10px;" >
+            <table class="content"  width="100%" style="border-spacing: 0;" cellpadding="0" cellspacing="0" role="presentation"> 
+               <tr>
+                  <td style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;;">
+                     <a href="https://www.tripadvisor.com/" target="_blank"><img src="https://static.crm.tacdn.com/ta/oo/tc_destinations_food_021423_v2/trending_5_1.jpg" alt="destination" style="width: 100%; max-width: 270px; padding: 0; border: none;"></a>
+                  </td>
+               </tr>
+               <tr>
+                  <td style="padding-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                    <p style="font-size: large; font-weight: 900; line-height: 30px;">Top Trending Destinations</p>
+                  </td>
+               </tr>
+               <tr>
+                  <td style="padding-top: 20px; padding-bottom: 20px; padding-left: 0; padding-right: 0;">
+                     <a href="https://www.tripadvisor.com/" target="_blank" style="color: #fafdfe; font-weight: 900; font-size: 20px; background-color: #1d1d1d; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; border: 1px solid #1d1d1d; border-radius: 20px; line-height: 30px;">Explore now</a>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+   </table>
+
+    <!--[if (gte mso 9)|(IE)]>
+										</td><td width="300" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+									<![endif]-->
+                           <table class="column" style="width: 100%; max-width: 300px; vertical-align: top; display: inline-block;" role="presentation" >
+                              <tr>
+                                 <td class="padding" width="100%" valign="top" style="padding-left: 20px; padding-right: 0; padding-top: 0; padding-bottom: 10px;" >
+                                    <table class="content" width="100%" style="border-spacing: 0;" cellpadding="0" cellspacing="0" role="presentation"> 
+                                       <tr>
+                                          <td style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                                             <a href="https://www.tripadvisor.com/" target="_blank"><img src="https://static.crm.tacdn.com/ta/oo/tc_destinations_food_021423_v2/nature_4_1.jpg" alt="destination" style="width: 100%; max-width: 270px; padding: 0; border: none;"></a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                                            <p style="font-size: large; font-weight: 900; line-height: 30px;">Best Destinations for Lovers</p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding-top: 20px; padding-bottom: 20px; padding-left: 0; padding-right: 0;">
+                                             <a href="https://www.tripadvisor.com/" target="_blank" style="color: #fafdfe; font-weight: 900; font-size: 20px; background-color: #1d1d1d; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; border: 1px solid #1d1d1d; border-radius: 20px; line-height: 30px;">Explore now</a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+   
+    <!--[if (gte mso 9)|(IE)]>
+										</td>
+										</tr>
+										</table>
+									<![endif]-->                                 
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+
+<!--checkout trending two-column ends-->
+
+<!--bottom logo starts-->
+<tr>
+   <td style="padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px;">
+       <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+           <tr>
+               <td style="padding-left: 15px;">
+                   <a href="https://www.tripadvisor.com/" target="_blank"><img src="https://cdn.tripadvisor.com/img2/email/rex/ta_logo_transparent_230px.png" alt="logo"></a>
+               </td>
+           </tr>
+       </table>
+   </td>
+</tr>
+<!--bottom logo ends-->
+<!--bottom hr-->
+<tr>
+   <td style="padding-top: 4px; padding-bottom: 4px; padding-left: 0; padding-right: 0;" >
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+         <tr>
+            <td style="height: 4px; background-color: #aaacac; width: 100%; max-width: 600px;"></td>
+         </tr>
+      </table>
+   </td>
+</tr>
+<!--bottom hr-->
+<!--footer section start-->
+<tr>
+   <td style="padding-top: 15px; padding-bottom: 15px; padding-left: 0; padding-right: 0;" align="left">
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+         <tr>
+            <td style="padding-top: 0; padding-bottom: 0; padding-left: 20px; padding-right: 20px; font-size: 0;">
+               <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                     <td style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                        <p style="font-size: small;">Please do not reply directly to this email. This was sent from an address that cannot accept responses. For questions or assistance, visit our <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank" style="font-size: small; color: #1d1d1d; text-decoration: underline;">Help Center</a>.</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                        <p style="font-size: small;">Tripadvisor LLC, 400 1st Ave, Needham, MA 02494, USA.</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                        <p style="font-size: small;">&copy; 2023 Tripadvisor LLC. All rights reserved. Tripadvisor, the Tripadvisor logo, the owl logo, Travelers' Choice and the Travelers' Choice logo are trademarks of Tripadvisor LLC in the US and other countries.</p>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+
+<!--footer section ends-->
+<!--footer links starts-->
+<tr>
+   <td style="padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px;" align="left">
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+         <tr>
+            <td style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 0;">
+               	<!--[if (gte mso 9)|(IE)]>
+										<table width="100%" style="border-spacing:0;" role="presentation">
+										<tr>
+										<td width="400" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+									<![endif]-->
+               <table style="width: 100%; max-width: 400; vertical-align: top;" role="presentation">
+                  <tr>
+                     <td style="padding-left: 15px; padding-right: 0; padding-top: 0; padding-bottom: 0;" valign="top">
+                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0;" role="presentation">
+                           <tr>
+                              <td style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                                 <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank" style="font-size: small; color: #1d1d1d; text-decoration: underline;">Go to Tripadvisor</a> <span style="color: #1d1d1d; padding-left: 5px; padding-right: 5px; font-size: small;">|</span> <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank" style="font-size: small; color: #1d1d1d; text-decoration: underline;">Unsubscribe
+                                 </a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="padding-left: 0; padding-right: 0; padding-top: 15px; padding-bottom: 0;">
+                                 <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank" style="font-size: small; color: #1d1d1d; text-decoration: underline;">Privacy and Cookies Statement</a> <span style="color: #1d1d1d; padding-left: 5px; padding-right: 5px; font-size: small;">|</span> <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank" style="font-size: small; color: #1d1d1d; text-decoration: underline;">	Contact Us
+                                 </a>
+                              </td> 
+                           </tr>
+                           <tr>
+                              <td style="padding-left: 0; padding-right: 0; padding-top: 15px; padding-bottom: 0;">
+                               <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank"><img src="https://img.icons8.com/color/256/apple-app-store.png" alt="apple" style=" max-width: 50px; width: 100%; padding: 5px;"></a>
+                               <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank"><img src="https://img.icons8.com/color/256/google-play.png" alt="apple" style="max-width: 50px; width: 100%;  padding: 5px;"></a>
+                              </td> 
+                           </tr>
+                           <tr>
+                              <td style="padding-left: 0; padding-right: 0; padding-top: 0px; padding-bottom: 0;">
+                              <p>Follow us for travel inspiration</p>
+                              </td> 
+                           </tr>
+                           <tr>
+                              <td style="padding-left: 0; padding-right: 0; padding-top: 0px; padding-bottom: 0;">
+                                 <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank"><img src="https://img.icons8.com/fluency/256/facebook-new.png" alt="facebook" style="max-width: 40px;"></a>
+                                 <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank"><img src="https://img.icons8.com/color/256/instagram-new.png" alt="facebook" style="max-width: 40px;"></a>
+                                 <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank"><img src="https://img.icons8.com/color/256/twitter.png" alt="facebook" style="max-width: 40px;"></a>
+                                 <a href="https://www.tripadvisorsupport.com/en-US/hc/traveler" target="_blank"><img src="https://img.icons8.com/color/256/tiktok.png" alt="facebook" style="max-width: 40px;"></a>
+                              </td> 
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+
+               <!--[if (gte mso 9)|(IE)]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+                    
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+
+<!--footer links ends-->
+ <!--End email body-->
+         </table>
+
+         <!--[if (gte mso 9)|(IE)]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+      
+      </div>
+   </center>
+
+</body>
+</html>
